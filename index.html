@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#090908" />
+    <meta name="description" content="Herança Maldita — uma história onde todo legado cobra seu preço." />
+    <title>Herança Maldita</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="brand" href="#inicio" aria-label="Herança Maldita — início">
+        <span class="brand-mark" aria-hidden="true">H</span>
+        <span>HERANÇA MALDITA</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false">
+        <span></span><span></span>
+      </button>
+      <nav class="nav" aria-label="Navegação principal">
+        <a href="#historia">A história</a>
+        <a href="#personagens">Personagens</a>
+        <a href="#arquivo">Arquivo</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero" id="inicio">
+        <div class="hero-art" aria-hidden="true">
+          <div class="moon"></div>
+          <div class="mist mist-one"></div>
+          <div class="mist mist-two"></div>
+          <div class="mansion">
+            <div class="roof"></div>
+            <div class="tower tower-left"><i></i><i></i></div>
+            <div class="tower tower-right"><i></i><i></i></div>
+            <div class="house-body">
+              <div class="window-row"><i></i><i></i><i></i><i></i><i></i></div>
+              <div class="door"><span></span></div>
+            </div>
+          </div>
+          <div class="branches branch-left"></div>
+          <div class="branches branch-right"></div>
+        </div>
+
+        <div class="hero-content">
+          <p class="eyebrow reveal">UM SEGREDO NÃO MORRE. ELE É HERDADO.</p>
+          <h1 class="reveal"><span>HERANÇA</span><em>MALDITA</em></h1>
+          <div class="hero-bottom reveal">
+            <p>Uma casa esquecida.<br />Uma família marcada.<br />Um passado que nunca descansou.</p>
+            <a class="round-link" href="#historia" aria-label="Conheça a história">
+              <span>CONHEÇA<br />A HISTÓRIA</span>
+              <b aria-hidden="true">↓</b>
+            </a>
+          </div>
+        </div>
+
+        <div class="side-note">ROLE PARA DESCOBRIR</div>
+        <div class="chapter-mark">I</div>
+      </section>
+
+      <section class="story" id="historia">
+        <div class="section-number" aria-hidden="true">01</div>
+        <div class="story-heading reveal">
+          <p class="eyebrow">A HERANÇA</p>
+          <h2>Algumas portas<br />deveriam permanecer<br /><em>fechadas.</em></h2>
+        </div>
+        <div class="story-copy reveal">
+          <span class="ornament">✦</span>
+          <p>Quando o passado volta para cobrar sua dívida, não há distância capaz de apagar as marcas deixadas por uma família.</p>
+          <p>Entre corredores silenciosos e retratos que parecem observar cada movimento, a verdade aguarda — paciente — por quem tiver coragem de encontrá-la.</p>
+          <a href="#personagens">CONTINUE A LEITURA <span>→</span></a>
+        </div>
+      </section>
+
+      <section class="quote-panel" id="personagens">
+        <div class="quote-line" aria-hidden="true"></div>
+        <blockquote class="reveal">“Toda família guarda<br />seus segredos.<br /><em>Esta enterrou os seus.</em>”</blockquote>
+        <p>HERANÇA MALDITA</p>
+      </section>
+
+      <section class="archive" id="arquivo">
+        <p class="eyebrow">DO ARQUIVO</p>
+        <h2>Fragmentos da história</h2>
+        <div class="archive-grid">
+          <article class="archive-card reveal">
+            <span>CAPÍTULO I</span><h3>O chamado</h3><p>A carta chegou em uma manhã de inverno.</p><b>LER FRAGMENTO →</b>
+          </article>
+          <article class="archive-card reveal">
+            <span>CAPÍTULO II</span><h3>A chegada</h3><p>A casa permanecia exatamente como na lembrança.</p><b>LER FRAGMENTO →</b>
+          </article>
+          <article class="archive-card reveal">
+            <span>CAPÍTULO III</span><h3>O retrato</h3><p>Havia algo familiar naquele rosto desconhecido.</p><b>LER FRAGMENTO →</b>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <a class="brand footer-brand" href="#inicio"><span class="brand-mark">H</span><span>HERANÇA MALDITA</span></a>
+      <p>UMA HISTÓRIA SOBRE O QUE HERDAMOS<br />E O QUE NUNCA CONSEGUIMOS DEIXAR PARA TRÁS.</p>
+      <a href="#inicio">VOLTAR AO INÍCIO ↑</a>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
